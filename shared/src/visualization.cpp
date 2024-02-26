@@ -1,4 +1,5 @@
-#include <visualization.h> 
+#include <stdint.h>
+#include <visualization.h>
 
 //libigl viewer
 namespace Visualize {
@@ -243,5 +244,4 @@ bool Visualize::plot_phase_space(const char *label, ImVec2 q_bounds, ImVec2 q_do
 
          //tell viewer to update
          g_viewer.data_list[g_id[id]].dirty |= igl::opengl::MeshGL::DIRTY_POSITION;
-
     }

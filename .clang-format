@@ -1,0 +1,16 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: WebKit
+AlignConsecutiveAssignments: Consecutive
+BreakBeforeBraces: Attach
+ColumnLimit: 210
+DerivePointerAlignment: true
+IndentCaseLabels: true
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: None
+ReflowComments: false
+SortIncludes: false
+SpaceBeforeParens: Never
+Standard: Auto
+...

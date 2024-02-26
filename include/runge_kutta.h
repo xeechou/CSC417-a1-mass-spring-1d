@@ -8,8 +8,6 @@
 //  q - set q to the updated generalized coordinate using Runge-Kutta time integration
 //  qdot - set qdot to the updated generalized velocity using Runge-Kutta time integration
 
-template<typename FORCE> 
-inline void runge_kutta(Eigen::VectorXd &q, Eigen::VectorXd &qdot, double dt, double mass,  FORCE &force) {
-
-    
+template <typename FORCE> inline void runge_kutta(Eigen::VectorXd &q, Eigen::VectorXd &qdot, double dt, double mass, FORCE &force) {
+    //TODO
 }

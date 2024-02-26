@@ -3,6 +3,7 @@
 
 #define IMGUI_DEFINE_MATH_OPERATORS
 
+#include <stdint.h>
 #include <igl/opengl/glfw/Viewer.h>
 #include <igl/opengl/glfw/imgui/ImGuiMenu.h>
 #include <igl/opengl/glfw/imgui/ImGuiHelpers.h>
